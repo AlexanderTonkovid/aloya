@@ -9,7 +9,10 @@ import { environment } from 'environments/environment';
 import { AppComponent } from './app.component';
 import { PLComponent } from './productList';
 
-import '../styles/new.css';
+import '../styles/bootstrappage.css';
+import '../styles/flexslider.css';
+import '../styles/jquery.fancybox.css';
+import '../styles/main.css';
 import '../styles/bootstrap.min.css';
 /**
  * `AppModule` is the main entry point into Angular2's bootstraping process
