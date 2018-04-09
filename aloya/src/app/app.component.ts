@@ -19,7 +19,7 @@ import { environment } from 'environments/environment';
 })
 
 export class AppComponent implements OnInit {
-  public shopName : string;
+  public shopName: string;
 
   constructor() {
     this.shopName = 'Aloya';
