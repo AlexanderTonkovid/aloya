@@ -1,5 +1,5 @@
 # tipe.io
-
+*.xml
 # Logs
 logs
 *.log
