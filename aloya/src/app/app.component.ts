@@ -15,9 +15,7 @@ import { environment } from 'environments/environment';
   // styleUrls: [
   //   './app.component.css'
   // ],
-  template: `
-      <span class="ddd">{{shopName}}</span>    
-  `
+  template: `<span class="ddd">{{shopName}}</span>`
 })
 
 export class AppComponent implements OnInit {
