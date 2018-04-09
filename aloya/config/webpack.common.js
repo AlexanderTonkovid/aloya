@@ -219,12 +219,12 @@ module.exports = function (options) {
        *
        * See: https://www.npmjs.com/package/copy-webpack-plugin
        */
-      new CopyWebpackPlugin([
-        { from: 'src/assets', to: 'assets' },
-        { from: 'src/meta'}
-      ],
-        isProd ? { ignore: [ 'mock-data/**/*' ] } : undefined
-      ),
+      // new CopyWebpackPlugin([
+      //   { from: 'src/assets', to: 'assets' },
+      //   { from: 'src/meta'}
+      // ],
+      //   isProd ? { ignore: [ 'mock-data/**/*' ] } : undefined
+      // ),
 
       /*
       * Plugin: HtmlWebpackPlugin
